@@ -1,16 +1,26 @@
 .App {
-  background-color: black;
+  background-color: #1D2939;
   height: 100vh;
   width: 100vw;
   color: aliceblue;
+  text-align: center;
+
+}
+
+.flex-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .search-bar_container {
-  padding-top: 20vh;
-  width: 40%;
+  padding-top: 5%;
+  width: 80%;
   margin: auto;
   display: flex;
   flex-direction: column ;
+  flex-grow: 1;
   align-items: center;
   min-width: 200px; 
 }
+

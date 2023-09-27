@@ -1,0 +1,28 @@
+header{
+    display: flex;
+    flex-direction: column;
+}
+
+h3{
+    font-size: 2rem;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 20%;
+    color: aliceblue;
+    width: 80%;
+  }
+  
+  p{
+    font-size: 1.3rem;
+    font-weight: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10%;
+    color: aliceblue;
+    width: 60%;
+    margin-left: 10%;
+  }

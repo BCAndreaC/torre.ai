@@ -1,0 +1,27 @@
+.results-list{
+width: 100%;
+background-color: black;
+display: flex;
+flex-direction: column;
+box-shadow: 0px 0px 5px #ddd;
+border-radius: 10px;
+margin-top: 1rem;
+max-height: 300px;
+overflow-y: scroll;
+padding: 10px;
+}
+
+.results-list::-webkit-scrollbar-thumb:hover {
+background: #121777;
+}
+
+
+.result-name{
+padding: 10px 30px;
+}
+
+.result-name:hover{
+background-color: black;
+box-shadow: 0px 0px 5px #ddd;
+cursor: pointer;
+}

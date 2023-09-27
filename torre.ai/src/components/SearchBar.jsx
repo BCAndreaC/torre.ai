@@ -35,7 +35,6 @@ export const SearchBar = ({ setResults, setLoading }) => {
             return null;
           }
         });
-      console.log("Response JSON Array:", jsonResponseArray);
       setResults(jsonResponseArray); // Store the results in state
     } catch (error) {
       console.error("Error:", error);
@@ -50,8 +49,6 @@ export const SearchBar = ({ setResults, setLoading }) => {
     fetchData();
     }
   };
-
-  console.log(search);
 
   return (
     <div className="input-wrapper">

@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    margin-left: 5%;
+    /* box-shadow: #000000 0px 0px 10px 0px;
+    border-radius: 10px;
+    background-color: black; */
+    width: 80%;
+  }
+
+h3{
+    font-size: 2rem;
+    font-weight: 400;
+    padding-top: 5%;
+    color: aliceblue;
+    width: 100%;
+    text-align: center;
+    
+  }
+  
+  p{
+    font-size: 1.2rem;
+    font-weight: normal;
+    padding-top: 10%;
+    color: aliceblue;
+    width: 100%;
+    text-align: justify;
+    
+  }

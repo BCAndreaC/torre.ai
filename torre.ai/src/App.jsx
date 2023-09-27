@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./App.css";
 import { SearchBar } from "./components/SearchBar";
 import { SearchResultsList } from "./components/SearchResultsList";
-import { Header } from "./components/SearchHeader";
+import { Title } from "./components/SearchHeader";
 
 function App() {
   const [results, setResults] = useState([]);
@@ -12,7 +12,7 @@ function App() {
     <>
       <div className="App">
         <div className="flex-container">
-          <Header />
+          <Title />
           <div className="search-bar_container">
             <SearchBar setResults={setResults} setLoading={setLoading} />
             {loading && <SearchResultsList results={results} />}
